@@ -64,6 +64,7 @@ Since the application uses Entity Framework, you need to apply migrations. You c
 You now have a Docker setup with an ASP.NET Core Web API acting as a catalog service and a PostgreSQL database. The catalog service operates as an independent microservice, accessible via API endpoints. This architecture allows for scalability and independent deployment of each service.
 
 -=-=--=--=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 To programmatically update YAML files for configuring microservices, you can use a scripting language like Python. The pyyaml library in Python is particularly useful for this purpose. Below, I'll show you how to use Python to read, update, and write YAML files that are used for configuring microservices.
 
 First, ensure you have Python installed on your machine. You can install the pyyaml library using pip
