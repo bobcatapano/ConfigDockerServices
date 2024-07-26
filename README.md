@@ -29,6 +29,7 @@ You now have a Docker setup with an ASP.NET Core MVC application acting as a cat
 To see your application, navigate to http://localhost:5000 in your browser. You can add controllers and views to manage the CatalogItem entities and expand the application further as needed.
 
 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+
 Catalog Service can be set up as a separate microservice. To achieve a microservices architecture, we need to ensure that the Catalog Service operates independently and interacts with other services via APIs. Here's an updated approach with a clear separation of concerns
 
 Step 1: Create the Catalog Service as a Separate Microservice
